@@ -1,0 +1,54 @@
+                       
+1.Objects in JavaScript:
+
+  *In JavaScript, almost "everything" is an object.
+  *It is a collection of named values having state and behavior (properties and method)”.
+
+
+For Example: 
+   
+   Car,Pen,Bike,Compuetr,Person.
+   Singel value Object var car = "BMW";
+
+
+
+
+2.Syntax:
+  
+   var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+Ex:
+  var car = {Make: “HYUNDAI”, Model: “i10”, Color: “White”, Fuel: Diesel, Weight: “850kg”,Mileage: “8Kmpl”};
+
+  * key called property
+  * value called property value.
+  *The object properties can be different primitive values, other objects and functions.
+  *Properties can usually be changed, added, and deleted, but some are read only.
+
+
+The syntax for adding a property to an object is :
+ 
+ *ObjectName.ObjectProperty = propertyValue;   EX://car.Model = i10;
+
+
+The syntax for deleting a property from an object is:
+ 
+ *delete ObjectName.ObjectProperty;          EX: // delete car.color.white;
+
+
+The syntax to access a property from an object is:
+
+ *objectName.property        // Car.Make
+
+
+
+
+3.Object Methods:
+
+ *An object method is an object property containing a function definition.
+  \\Ex:Let’s assume to start the car there will be a mechanical functionality.
+
+function(){return ignition.on}
+and so similar is to stop/brake/headlights on & off, etc.
+
+  
+

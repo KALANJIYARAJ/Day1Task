@@ -1,0 +1,20 @@
+
+
+  HTTP -> HYPER TEXT TRANSPER PROTOCAL
+
+ 
+                 HTTP1.1                                                                                HTTP2.0
+
+
+    * Introduced in 1997.                                                                      * Introduced in 2015.
+   
+    * 3 TCP connections to the sever.                                                          * 1 TCP connection to the server uses multiplexing.
+    
+    * port 18011.                                                                              * port 18020.
+    
+    * Response time will slow while compare the HTTP2.0.\\EX: 2sec                             * Response time will fast while compare the HTTP1.0. \\ Ex: 1.30sec  
+     
+    * web browerser makes several parallel request for page                                    * web browerser make one TCP connection with request for all page 
+      contents.HTML,css,js,image.                                                                contents in http2 streams binary.
+
+    * keep alive and most of the website using Http1.0 still now.                              
